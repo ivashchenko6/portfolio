@@ -1,0 +1,61 @@
+.sidepanel {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    z-index: 3;
+    &__wrapper {
+        position: absolute;
+        
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    
+    .divider_social {
+        
+        margin-bottom: 15px;
+    }
+
+
+    &__text {
+        height: 25px;
+        width: 150px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin: 0;
+        // transform: rotate(-90deg);
+    }
+
+
+
+    &__link {
+        
+        img {
+            width: 20px;
+            height: 20px;
+            &:hover {
+                fill:red;
+            }
+        }
+        &:first-child {
+            transform: rotate(-90deg);
+            
+        }
+        
+    }
+    span {
+        display: block;
+        width: 150px;
+        transform: rotate(-90deg);
+    }
+}

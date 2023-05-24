@@ -1,0 +1,47 @@
+.section-item {
+    position: relative;
+    display: flex;
+    align-items:flex-start;
+    
+    z-index: 2;
+    @include before_circle;
+    &::before {
+        top: -12%;
+        left: -18px;
+    }
+
+    &__text {
+        position: relative;
+        top: -13%;
+    }
+    &__img {
+        position: relative;
+        z-index: 2;
+        margin-right: 20px;
+        
+    }
+
+    &__title {
+        position: relative;
+        margin-bottom: 6px;
+        z-index: 3;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        
+
+
+        color: #000000;
+
+    }
+
+    &__descr {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+
+        color: #000000;
+
+    }
+    
+}

@@ -1,0 +1,13 @@
+.divider {
+    width: 60px;
+    border: 2px solid $main-color;
+    height: 0px;
+
+    &_social {
+        height: 70px;
+        width: 2px;
+        border: 1px solid #000;
+        
+    }
+
+}

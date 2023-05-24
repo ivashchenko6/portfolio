@@ -1,0 +1,47 @@
+
+
+@media (max-width: 1710px) {
+    .promo {
+        &__img {
+            right: 180px;
+            
+        }
+    }
+}
+
+
+@media (max-width: 1457px) {
+    .sidepanel {
+        
+        left: 0;
+    }
+}
+
+@media (max-width: 1344px) {
+    .sidepanel {
+        
+        left: -20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .sidepanel {
+        display: none;
+    }
+    .promo {
+
+        &__img {
+            right: 28px;
+        }
+    }
+}
+
+
+@media (max-width: 959px) {
+    .promo {
+        &__title {
+            width: 320px;
+        }
+    }
+}
+

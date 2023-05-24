@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+body .todo-tasks {
+  width: 500px;
+  height: 670px;
+  background-color: #F5CBA7;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+body .todo-tasks .information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .todo-tasks .information input {
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: 700;
+}
+body .todo-tasks .add-task {
+  border: 1px solid black;
+  padding: 10px 40px;
+  background-color: #FFD700;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 10px;
+}
+body .todo-tasks .add-task:hover {
+  background-color: #DC143C;
+}
+body .todo-tasks .container-tasks {
+  margin: 20px 0 0 0px;
+}
+body .todo-tasks .container-tasks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body .todo-tasks .container-tasks ul li .task-item {
+  background-color: #FAE5D3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  border-top: 1px solid black;
+}
+body .todo-tasks .container-tasks ul li .task-item p {
+  font-weight: 700;
+}
+body .todo-tasks .container-tasks ul li .task-item .div-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 11 0px;
+}
+body .todo-tasks .container-tasks ul li .task-item .done-status {
+  border: 1px solid black;
+  background-color: limegreen;
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+}
+body .todo-tasks .container-tasks ul li .task-item .done-status:hover {
+  background-color: #11B3EB;
+}
+body .todo-tasks .container-tasks ul li .task-item .not-done-status {
+  border: 1px solid black;
+  background-color: red;
+  font-size: 25px;
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+}
+body .todo-tasks .container-tasks ul li .task-item .not-done-status:hover {
+  background-color: #D68910;
+}
+body .todo-tasks .container-tasks .title-div {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+body .todo-tasks .container-tasks .title-div h2 {
+  font-size: 17px;
+}
+
+.doneText {
+  color: green;
+}
+
+.changeDoneBtn {
+  border: 1px solid black;
+  background-color: #1CA3B9;
+  font-size: 15px;
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+}
+.changeDoneBtn:hover {
+  background-color: #53868E;
+}/*# sourceMappingURL=style.css.map */
